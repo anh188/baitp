@@ -1,0 +1,161 @@
+/* Kích thước mobile: min-width: 320px and max-width: 767px
+
+Kích thước tablet: min-width: 768px and max-width: 991px */
+
+/*mobile*/
+@media all and (min-width:320px) and (max-width: 767px){
+   .menu{
+      display: none;
+   }
+
+   #header nav .fa-bars{
+      font-size: 30px;
+      display: block;
+      padding: 10px 30px;
+      cursor: pointer;
+   }
+
+   .container1{
+      display: block;
+      padding: 80px 10%;
+      overflow: hidden;
+   }
+
+   .container{
+      display: block;
+      width: 200%;
+   }
+
+   .left-img{
+      margin-bottom: 20px;
+      border-radius: 5px;
+   }
+
+   .profile-ava{
+      width: 40%;
+   }
+
+   .content-right{
+      padding-left: 0;
+      padding-top: 80px;
+  }
+
+   .more-imgs-left{
+      order: 2;
+   }
+
+   .more-imgs-r{
+      display: block;
+   }
+
+  .img5 {
+      margin-left: 0px;
+   }
+
+   .img5-content {
+      left: 0;
+      bottom: -150px;
+   }
+
+   .more-imgs-right{
+      margin-bottom: 20px;
+   }
+
+   .imgs-left-its{
+      display: block;
+   }
+
+   .img2, .img3{
+      width: 98%;
+      padding: 0;
+   }
+
+   .more-imgs-r{
+      width: 100%;
+   }
+
+   .img2-content, .img3-content{
+      width: 96%; 
+   }
+
+   .content-sub{
+      margin: 80px 10px;
+   }
+
+   #footer{
+      display: block;
+   }
+
+   #slider .text-content{
+         padding: 80% 0;
+   }
+
+   .text-heading{
+      font-size: 30px;
+   }
+
+  .ft-content{
+      display: block;
+      text-align: left;
+   }
+
+   .ft-center{  
+      padding: 20px 0 20px 0;
+   }
+
+   .fr-center-bot{
+      padding-left: 30px;
+   }
+}
+
+
+
+/*tablet*/
+@media(min-width:768px) and (max-width: 1023px){
+   .menu{
+      display: none;
+   }
+
+   #header nav .fa-bars{
+      font-size: 30px;
+      display: block;
+      padding: 10px 30px;
+      cursor: pointer;
+   }
+
+   #slider .text-content{
+      padding: 40% 0;
+  }
+
+   .text-heading{
+      font-size: 45px;
+  }
+
+  .container1{
+   display: block;
+   padding: 80px 10%;
+   }
+
+   .content-right{
+      padding-top: 80px;
+      padding-left: 0;
+   }
+
+  .profile-ava{
+      width: 40%;
+   }
+   
+   .ft-center div{
+      display: block;
+   }
+
+   .fr-center-bot{
+      margin-left: 0;
+   }
+}
+
+
+/*pc*/
+@media all and (min-width:1024px){
+
+}
