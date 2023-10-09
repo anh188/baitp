@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    margin: 5% 25% 0 25%;
+}
+.btn-add{
+    background-color: rgba(239, 32, 32, 0.764);
+    padding: 20px 40px;
+}
+.btn-add h2{
+    color: #fff;
+}
+.add{
+    display: flex;
+}
+#error{
+    color: #fff;
+}
+.btn-add button, .btn-add input{
+    padding: 0;
+    border: none;
+    height: 30px;
+}
+.btn-add button{
+    width: 100px;
+}
+.btn-add button:hover{
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+.btn-add input{
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+}
+form{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#taskList li{
+    margin: 0;
+    padding: 10px 20px 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    cursor: pointer;
+}
+li:nth-child(odd){
+    background-color: rgb(244, 244, 244) ;
+}
+
+li:nth-child(even){
+    background-color: rgb(196, 196, 196) ;
+}
+
+li.text{
+    color: #fff;
+}
+li.completed {
+    text-decoration: line-through;
+    background-color: rgb(116, 116, 116);
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+i{
+text-decoration: none;
+}
