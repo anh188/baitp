@@ -1,0 +1,24 @@
+#lightbox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+}
+.gallery img{
+    height: 200px;
+    width: auto;
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
+img#light-img{
+    position: relative;
+    height: 60%;
+    width: auto;
+    top: 20%;
+
+}
