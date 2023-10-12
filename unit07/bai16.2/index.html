@@ -9,14 +9,48 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
     <div class="side-bar">
+        <div class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
         <div class="menu">
             <div class="item"><a href="#"><i class="fa-solid fa-circle-info"></i>About</a></div>
             <div class="item"><a href="#"><i class="fa-solid fa-dollar-sign"></i>Pricing</a></div>
             <div class="item"><a href="#"><i class="fa-solid fa-unlock-keyhole"></i>Why Go Pro?</a></div>
-            <div class="item"><a href="#"><i class="fa-solid fa-ticket"></i>Support</a></div>
-            <div class="item"><a href="#"><i class="fa-solid fa-user"></i>Account</a></div>
+            <div class="item">
+                <a class="sub-btn"><i class="fa-solid fa-ticket"></i>Support<i class="fa-solid fa-chevron-right"></i></a>
+                    <div class="sub-menu">
+                        <a href="#" class="sub-item">Sub item 01<i class="fa-solid fa-chevron-right"></i></a>
+                            <div class="sub-menu1">
+                                <a href="#" class="sub-item">item 01</a>
+                                <a href="#" class="sub-item">item 02</a>
+                                <a href="#" class="sub-item">item 03</a>
+                            </div>
+                        <a href="#" class="sub-item">Sub item 02</a>
+                        <a href="#" class="sub-item">Sub item 03</a>
+                        <a href="#" class="sub-item">Sub item 04</a>
+                    </div>
+            </div>
+            <div class="item">
+                <a class="sub-btn"><i class="fa-solid fa-user"></i>Account<i class="fa-solid fa-chevron-right"></i></a>
+                <div class="sub-menu">
+                    <a href="#" class="sub-item">Sub item 01</a>
+                    <a href="#" class="sub-item">Sub item 02</a>
+                    <a href="#" class="sub-item">Sub item 03</a>
+                </div>
+            </div>
         </div>
     </div>
+    <section class="main">
+        <h1>Sidebar Menu<br>Responsive</h1>
+    </section>
+
+    <script type="text/javascript" src="./js/script.js">
+
+    </script>
 </body>
 </html>
