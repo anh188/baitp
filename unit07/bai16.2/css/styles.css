@@ -134,14 +134,17 @@ body{
     .menu i{
         padding: 10px;
     }
-    .menu-btn, .close-btn,.sub-item,.fa-solid.fa-chevron-right{
-        display: none;
-    }
+    
     .menu .item{
         cursor: pointer;
     }
     .menu .item a{
         color: #000;
     }
-
+    .menu-btn, .close-btn,.sub-item,.fa-solid.fa-chevron-right{
+        display: none;
+    }
+    .sub-btn:hover sub-menu{
+        display: block;
+    }
 }

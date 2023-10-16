@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;/*cuộn*/
+    font-family: Arial, Helvetica, sans-serif;/* kế thừa font chữ */
+}
+.navbar{
+    background-color: white;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    color: #ffffff;
+    background-color: rgb(102, 212, 150);
+}
+.contact:hover{
+    color: rgb(102, 212, 150);
+    background-color: #ffffff;
+    border: 1px solid rgb(102, 212, 150);
+}
+.hero-btn{
+    color: rgb(102, 212, 150);
+    background-color: #ffffff;
+    border: 1px solid rgb(102, 212, 150);
+}
+.hero-btn:hover{
+    color: #ffffff;
+    background-color: rgb(102, 212, 150);
+}
+.nav-link{
+    color: rgb(136, 136, 136);
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: rgb(102, 212, 150);
+}
+.contact{
+    font-weight: 600;
+}
+
+#head{
+    margin-top: 60px;
+    background: #f4f4f4;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+.hero-3-bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text h1{
+    font-size: 56px;
+}
+.hero-text h6{
+    color: #b4b4b4;
+}
+.hero-icon{
+    border: 1px solid #d8d8d8;
+    padding: 8px 13px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.mx-15{
+    margin: 30px 0 30px 0;
+}
+.hero-icon i{
+    font-size: 19px;
+    font-weight: 900;
+}
+
+
+
+
+#solution{
+    margin-bottom: 80px;
+
+}
+.solution-content{
+    text-align: center;
+}
+.solution-content h5{
+    font-weight: 400;
+    color: #b4b4b4;
+}
+.slider-content{
+    display: flex;
+    justify-content: space-between;
+}
+.card-content{
+    width: 240px;
+    height: 195px;
+    text-align: center;
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-item i{ 
+    color: #b4b4b4;
+}
+.card-item:hover i{ 
+    color:  rgb(102, 212, 150);
+}
+.card-content i{
+    font-size: 70px;
+}   
+.card-content a{
+    color:  #b4b4b4;
+}   
+.card-content span{
+    color:  #000000;
+}   
+.slider-container .slider-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#feature{
+    overflow: hidden;
+    background-color: #f9f9fd;
+}   
+
+.feature-img .img-container{
+    width: 100%;
+
+}
+.feature-content{
+    padding: 80px 0 80px 0;
+}
