@@ -1,5 +1,4 @@
 @media all and (min-width:320px) and (max-width: 767px){
-    
 }
  
  
@@ -9,6 +8,52 @@
     .hero-3 .hero-3-img{
         width: 100%;
     }
+    
+}
+
+/*pc*/
+@media all and (max-width:1023px){
+    .nav-list{
+        overflow: hidden;
+        height: 0;
+        position: absolute;
+        top: 56px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        background-color: aliceblue;
+        transition: 0.3s;
+        display: block;
+        opacity: 0;
+    }
+    .nav{
+        display: block;
+        margin-left: 40px;
+    }
+    .menubar{
+        display: block;
+        color: black;
+        font-size: 30px;
+    }
+    .contact{
+        margin-left: 40px;
+    }
+    .nav-list.active{
+        height: 360px;
+        opacity: 1;    
+    }
+    .nav-icon{
+        display: flex;
+    }
+    .feature-content{
+        display: block;
+        width: 100%;
+    }
+    .pricing-s{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
  
  

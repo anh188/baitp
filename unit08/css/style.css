@@ -12,6 +12,7 @@ html{
 .contact{
     color: #ffffff;
     background-color: rgb(102, 212, 150);
+    margin-left: 80px;
 }
 .contact:hover{
     color: rgb(102, 212, 150);
@@ -290,9 +291,33 @@ html{
 
 
 .join-container{
-    height: 100px;
     background-color: #f9f9fd;
+}
+.join-text{
+    padding-left: 40px;
+    margin-right: 40px;
+}
+.join-text h3{
+    color:  rgb(102, 212, 150);
+
+}
+
+.email-sub{
+    margin-top: 20px;
+}
+.sub-btn{
+    background-color: rgb(102, 212, 150);
+    color: #fff;
 }
 
 
- 
+
+#footer{
+    background-color: #2e3b5b;
+    height: 300px;
+}
+
+.menubar{
+    display: none;
+}
+
