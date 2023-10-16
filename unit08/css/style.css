@@ -86,7 +86,7 @@ html{
 .solution-content{
     text-align: center;
 }
-.solution-content h5{
+.solution-content h5, .feature-text h5{
     font-weight: 400;
     color: #b4b4b4;
 }
@@ -133,6 +133,60 @@ html{
     width: 100%;
 
 }
-.feature-content{
+.feature-content, #service{
     padding: 80px 0 80px 0;
+}
+
+
+
+
+
+.servicecontent{
+    box-sizing: border-box;
+    box-shadow: 20px;
+    box-shadow: rgba(185, 185, 185, 0.752);
+
+}
+.service-icon{
+    padding: 10px;
+    border-radius: 50px;
+}
+.icon-user{
+    background-color: #6164a6;
+}
+.icon-cast{
+    background-color: #eab944;
+}
+.icon-inbox{
+    background-color: #c25951;
+}
+.icon-file{
+    background-color: #67b99f;
+}
+.icon-drop{
+    background-color: #6f757c;
+}
+.icon-gear{
+    background-color: #2e3b5b;
+}
+.service-item p{
+    color:  #b4b4b4;
+}
+.service-item{
+    width: 95%;
+    height: 100%;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: 10px;
+    transition: all .3s ease-in;
+}
+.ser-link {
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+.service-item:hover{
+    border: 1px solid #808080;
+}
+.service-item:hover .ser-link{
+    opacity: 1;
 }
