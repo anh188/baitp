@@ -138,7 +138,7 @@ html{
     width: 100%;
 
 }
-.feature-content, #service{
+.feature-content, #service, #pricing, #client{
     padding: 80px 0 80px 0;
 }
 
@@ -230,3 +230,69 @@ html{
 .feature-text h2{
     margin: 40px 0px;
 }
+
+
+
+
+
+.pricing-content{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #6f757c;
+    
+}
+.btnpricing{
+    background-color: rgb(102, 212, 150);
+    color: #f9f9fd;
+    padding: 10px 25px;
+}
+
+.btnpricing:hover{
+    color: rgb(102, 212, 150);
+    background-color: #f9f9fd;
+    border: 1px solid rgb(102, 212, 150);
+}
+.pricing-head{
+    padding: 20px 20px;
+    border-bottom: 1px solid #6f757c;
+
+}
+.icon-pricing{
+    color: rgb(102, 212, 150);
+}
+.pc-content-center{
+    background-color: #2e3b5b;
+    color: #f4f4f4;
+}
+
+
+.client-content{
+    width: 100%;
+}
+.client-item{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    padding: 0 20%;
+}
+.client-item h4{
+    margin: 40px 0;
+}
+.client-item hr{
+    width: 15%;
+}
+.client-item p{
+    font-weight: 200;
+    color: #b4b4b4;
+}
+
+
+
+.join-container{
+    height: 100px;
+    background-color: #f9f9fd;
+}
+
+
+ 
